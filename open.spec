@@ -13,7 +13,7 @@ Release:	17
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
-# Source0-md5: 590781ba76d9d499d7843c0b4651da70
+# Source0-md5:	590781ba76d9d499d7843c0b4651da70
 Patch0:		%{name}-includes.patch
 ExcludeArch:	s390 s390x
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
