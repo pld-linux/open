@@ -1,10 +1,11 @@
 Summary:	A tool which will start a program on a virtual console
 Summary(de):	Tools zum Erstellen virtueller Konsolen
 Summary(fr):	Outils pour créer des consoles virtuelles
+Summary(pl):	Narzêdzie uruchamiaj±ce program na konsoli wirtualnej
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	14
+Release:	15
 License:	GPL
 Group:		Applications/Console
 Group(de):	Applikationen/Konsole
@@ -28,6 +29,10 @@ noch nicht in Gebrauch befindliche Konsole auszuführen.
 Ce programme exécute une commande sur un numéro de console donné. il
 peut aussi exécuter le programme sur la première console virtuelle qui
 n'est pas encore utilisée.
+
+%description -l pl
+Polecenie open uruchamia podane polecenie na pierwszej dostêpnej
+konsoli wirtualnej, lub na podanej konsoli.
 
 %description -l tr
 Bu program sayesinde bir kullanýcý istediði sanal konsolda bir program
