@@ -38,7 +38,7 @@ koþturabilir. Ýstenirse program kullanýmda olmayan ilk sanal konsolda
 %patch -p1
 
 %build
-%{__make} CFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}"
+%{__make} CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
