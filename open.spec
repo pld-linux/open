@@ -1,19 +1,35 @@
-Summary:	A tool which will start a program on a virtual console.
+Summary:	A tool which will start a program on a virtual console
+Summary(de):	Tools zum Erstellen virtueller Konsolen
+Summary(fr):	Outils pour créer des consoles virtuelles
+Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	6
-Copyright:	GPL
-Group:		Applications/System
+Release:	7
+License:	GPL
+Group:		Utilities/Console
 Source:		ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
-Patch:		open-1.4-includes.patch
+Patch:		open-includes.patch
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
 The open command starts a specified command with the first available
-virtual console, or on a virtual console that you specify.
+virtual console, or on a virtual console that you specify.  Install the
+open package if you regularly use virtual consoles to run programs.
 
-Install the open package if you regularly use virtual consoles to
-run programs.
+%description -l de
+Dieses Programm führt einen Befehl auf eine angegebene virtuelle
+Konsolennummer aus. Es ist auch möglich, den Befehl auf die erste, noch
+nicht in Gebrauch befindliche Konsole auszuführen.
+
+%description -l fr
+Ce programme exécute une commande sur un numéro de console donné. il peut
+aussi exécuter le programme sur la première console virtuelle qui n'est pas
+encore utilisée.
+
+%description -l tr
+Bu program sayesinde bir kullanýcý istediði sanal konsolda bir program
+koþturabilir. Ýstenirse program kullanýmda olmayan ilk sanal konsolda
+çalýþtýrýlabilir.
 
 %prep
 %setup -q
@@ -39,7 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(4755,root,root) %{_bindir}/open
-%attr(4755,root,root) %{_bindir}/switchto
-%{_mandir}/man1/open.1.gz
-%{_mandir}/man1/switchto.1.gz
+%attr(2755,root,root) %{_bindir}/open
+%attr(755,root,root) %{_bindir}/switchto
+%{_mandir}/man1/*
