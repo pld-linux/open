@@ -8,8 +8,6 @@ Version:	1.4
 Release:	15
 License:	GPL
 Group:		Applications/Console
-Group(de):	Applikationen/Konsole
-Group(pl):	Aplikacje/Konsola
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
 Patch0:		%{name}-includes.patch
 ExcludeArch:	s390 s390x
