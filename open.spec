@@ -7,24 +7,25 @@ Version:	1.4
 Release:	7
 License:	GPL
 Group:		Utilities/Console
-Source:		ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
-Patch:		open-includes.patch
+Group(pl):	Narzêdzia/Konsola
+Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
+Patch0:		open-includes.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The open command starts a specified command with the first available
-virtual console, or on a virtual console that you specify.  Install the
+virtual console, or on a virtual console that you specify. Install the
 open package if you regularly use virtual consoles to run programs.
 
 %description -l de
 Dieses Programm führt einen Befehl auf eine angegebene virtuelle
-Konsolennummer aus. Es ist auch möglich, den Befehl auf die erste, noch
-nicht in Gebrauch befindliche Konsole auszuführen.
+Konsolennummer aus. Es ist auch möglich, den Befehl auf die erste,
+noch nicht in Gebrauch befindliche Konsole auszuführen.
 
 %description -l fr
-Ce programme exécute une commande sur un numéro de console donné. il peut
-aussi exécuter le programme sur la première console virtuelle qui n'est pas
-encore utilisée.
+Ce programme exécute une commande sur un numéro de console donné. il
+peut aussi exécuter le programme sur la première console virtuelle qui
+n'est pas encore utilisée.
 
 %description -l tr
 Bu program sayesinde bir kullanýcý istediði sanal konsolda bir program
