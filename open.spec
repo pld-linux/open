@@ -4,7 +4,7 @@ Summary(fr):	Outils pour créer des consoles virtuelles
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	12
+Release:	13
 License:	GPL
 Group:		Applications/Console
 Group(de):	Applikationen/Konsole
