@@ -4,7 +4,7 @@ Summary(fr):	Outils pour créer des consoles virtuelles
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	7
+Release:	10
 License:	GPL
 Group:		Utilities/Console
 Group(pl):	Narzêdzia/Konsola
