@@ -9,7 +9,7 @@ Summary(tr):	Sanal konsol yaratmak iГin araГlar
 Summary(uk):	Утил╕та для запуску програми на вказан╕й в╕ртуальн╕й консол╕
 Name:		open
 Version:	1.4
-Release:	16
+Release:	17
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
