@@ -4,12 +4,13 @@ Summary(fr):	Outils pour créer des consoles virtuelles
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	10
+Release:	11
 License:	GPL
-Group:		Utilities/Console
-Group(pl):	Narzêdzia/Konsola
+Group:		Applications/Console
+Group(de):	Applikationen/Konsole
+Group(pl):	Aplikacje/Konsola
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
-Patch0:		open-includes.patch
+Patch0:		%{name}-includes.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -46,10 +47,6 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 %{__make} install \
 	BINDIR=$RPM_BUILD_ROOT%{_bindir} \
 	MANDIR=$RPM_BUILD_ROOT%{_mandir}/man1
-
-strip --strip-unneeded $RPM_BUILD_ROOT%{_bindir}/{open,switchto}
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/{open,switchto}.1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
