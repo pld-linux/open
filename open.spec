@@ -4,13 +4,14 @@ Summary(fr):	Outils pour créer des consoles virtuelles
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	13
+Release:	14
 License:	GPL
 Group:		Applications/Console
 Group(de):	Applikationen/Konsole
 Group(pl):	Aplikacje/Konsola
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
 Patch0:		%{name}-includes.patch
+ExcludeArch:	s390 s390x
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
