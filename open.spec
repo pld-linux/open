@@ -9,7 +9,7 @@ License:	GPL
 Group:		Utilities/Console
 Source:		ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
 Patch:		open-includes.patch
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The open command starts a specified command with the first available
