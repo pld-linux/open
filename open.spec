@@ -5,7 +5,7 @@ Summary(pl):	Narzêdzie uruchamiaj±ce program na konsoli wirtualnej
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	15
+Release:	16
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://sunsite.unc.edu/pub/Linux/utils/console/%{name}-%{version}.tar.gz
@@ -52,6 +52,8 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 	BINDIR=$RPM_BUILD_ROOT%{_bindir} \
 	MANDIR=$RPM_BUILD_ROOT%{_mandir}/man1
 
+gzip -9nf README*
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -60,3 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(2755,root,root) %{_bindir}/open
 %attr(755,root,root) %{_bindir}/switchto
 %{_mandir}/man1/*
+%doc *.gz
