@@ -4,7 +4,7 @@ Summary(fr):	Outils pour créer des consoles virtuelles
 Summary(tr):	Sanal konsol yaratmak için araçlar
 Name:		open
 Version:	1.4
-Release:	11
+Release:	12
 License:	GPL
 Group:		Applications/Console
 Group(de):	Applikationen/Konsole
@@ -38,7 +38,7 @@ koþturabilir. Ýstenirse program kullanýmda olmayan ilk sanal konsolda
 %patch -p1
 
 %build
-%{__make}
+%{__make} CFLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
