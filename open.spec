@@ -1,12 +1,12 @@
 Summary:	A tool which will start a program on a virtual console
-Summary(de):	Tools zum Erstellen virtueller Konsolen
-Summary(es):	Herramientas para creaciСn de consolas virtuales
-Summary(fr):	Outils pour crИer des consoles virtuelles
-Summary(pl):	NarzЙdzie uruchamiaj╠ce program na konsoli wirtualnej
-Summary(pt_BR):	Ferramentas para criaГЦo de consoles virtuais
-Summary(ru):	Утилита для запуска программы на указанной виртуальной консоли
-Summary(tr):	Sanal konsol yaratmak iГin araГlar
-Summary(uk):	Утил╕та для запуску програми на вказан╕й в╕ртуальн╕й консол╕
+Summary(de.UTF-8):   Tools zum Erstellen virtueller Konsolen
+Summary(es.UTF-8):   Herramientas para creaciцЁn de consolas virtuales
+Summary(fr.UTF-8):   Outils pour crц╘er des consoles virtuelles
+Summary(pl.UTF-8):   Narzд≥dzie uruchamiajд┘ce program na konsoli wirtualnej
+Summary(pt_BR.UTF-8):   Ferramentas para criaц╖цёo de consoles virtuais
+Summary(ru.UTF-8):   пёя┌п╦п╩п╦я┌п╟ п╢п╩я▐ п╥п╟п©я┐я│п╨п╟ п©я─п╬пЁя─п╟п╪п╪я▀ п╫п╟ я┐п╨п╟п╥п╟п╫п╫п╬п╧ п╡п╦я─я┌я┐п╟п╩я▄п╫п╬п╧ п╨п╬п╫я│п╬п╩п╦
+Summary(tr.UTF-8):   Sanal konsol yaratmak iц╖in araц╖lar
+Summary(uk.UTF-8):   пёя┌п╦п╩я√я┌п╟ п╢п╩я▐ п╥п╟п©я┐я│п╨я┐ п©я─п╬пЁя─п╟п╪п╦ п╫п╟ п╡п╨п╟п╥п╟п╫я√п╧ п╡я√я─я┌я┐п╟п╩я▄п╫я√п╧ п╨п╬п╫я│п╬п╩я√
 Name:		open
 Version:	1.4
 Release:	17
@@ -23,42 +23,42 @@ The open command starts a specified command with the first available
 virtual console, or on a virtual console that you specify. Install the
 open package if you regularly use virtual consoles to run programs.
 
-%description -l de
-Dieses Programm fЭhrt einen Befehl auf eine angegebene virtuelle
-Konsolennummer aus. Es ist auch mЖglich, den Befehl auf die erste,
-noch nicht in Gebrauch befindliche Konsole auszufЭhren.
+%description -l de.UTF-8
+Dieses Programm fц╪hrt einen Befehl auf eine angegebene virtuelle
+Konsolennummer aus. Es ist auch mц╤glich, den Befehl auf die erste,
+noch nicht in Gebrauch befindliche Konsole auszufц╪hren.
 
-%description -l es
+%description -l es.UTF-8
 Este programa ejecuta un comando en una determinada consola virtual.
-TambiИn puede ejecutar el programa en la primera consola virtual que
-no estИ mАs en uso.
+Tambiц╘n puede ejecutar el programa en la primera consola virtual que
+no estц╘ mц║s en uso.
 
-%description -l fr
-Ce programme exИcute une commande sur un numИro de console donnИ. il
-peut aussi exИcuter le programme sur la premiХre console virtuelle qui
-n'est pas encore utilisИe.
+%description -l fr.UTF-8
+Ce programme exц╘cute une commande sur un numц╘ro de console donnц╘. il
+peut aussi exц╘cuter le programme sur la premiц╗re console virtuelle qui
+n'est pas encore utilisц╘e.
 
-%description -l pl
-Polecenie open uruchamia podane polecenie na pierwszej dostЙpnej
+%description -l pl.UTF-8
+Polecenie open uruchamia podane polecenie na pierwszej dostд≥pnej
 konsoli wirtualnej, lub na podanej konsoli.
 
-%description -l pt_BR
+%description -l pt_BR.UTF-8
 Este programa executa um comando numa determinada console virtual.
-TambИm pode executar o programa no primeiro console virtual que nЦo
-estА mais em uso.
+Tambц╘m pode executar o programa no primeiro console virtual que nцёo
+estц║ mais em uso.
 
-%description -l ru
-Программа open запускает указанную команду на первой доступной
-виртуальной консоли или на консоли указанной пользователем.
+%description -l ru.UTF-8
+п÷я─п╬пЁя─п╟п╪п╪п╟ open п╥п╟п©я┐я│п╨п╟п╣я┌ я┐п╨п╟п╥п╟п╫п╫я┐я▌ п╨п╬п╪п╟п╫п╢я┐ п╫п╟ п©п╣я─п╡п╬п╧ п╢п╬я│я┌я┐п©п╫п╬п╧
+п╡п╦я─я┌я┐п╟п╩я▄п╫п╬п╧ п╨п╬п╫я│п╬п╩п╦ п╦п╩п╦ п╫п╟ п╨п╬п╫я│п╬п╩п╦ я┐п╨п╟п╥п╟п╫п╫п╬п╧ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩п╣п╪.
 
-%description -l tr
-Bu program sayesinde bir kullanЩcЩ istediПi sanal konsolda bir program
-koЧturabilir. щstenirse program kullanЩmda olmayan ilk sanal konsolda
-ГalЩЧtЩrЩlabilir.
+%description -l tr.UTF-8
+Bu program sayesinde bir kullanд╠cд╠ istediд÷i sanal konsolda bir program
+koе÷turabilir. д╟stenirse program kullanд╠mda olmayan ilk sanal konsolda
+ц╖alд╠е÷tд╠rд╠labilir.
 
-%description -l uk
-Програма open запуска╓ вказану команду на перш╕й доступн╕й в╕ртуальн╕й
-консол╕ чи на консол╕ вказан╕й користувачем.
+%description -l uk.UTF-8
+п÷я─п╬пЁя─п╟п╪п╟ open п╥п╟п©я┐я│п╨п╟я■ п╡п╨п╟п╥п╟п╫я┐ п╨п╬п╪п╟п╫п╢я┐ п╫п╟ п©п╣я─я┬я√п╧ п╢п╬я│я┌я┐п©п╫я√п╧ п╡я√я─я┌я┐п╟п╩я▄п╫я√п╧
+п╨п╬п╫я│п╬п╩я√ я┤п╦ п╫п╟ п╨п╬п╫я│п╬п╩я√ п╡п╨п╟п╥п╟п╫я√п╧ п╨п╬я─п╦я│я┌я┐п╡п╟я┤п╣п╪.
 
 %prep
 %setup -q
