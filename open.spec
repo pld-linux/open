@@ -1,12 +1,12 @@
 Summary:	A tool which will start a program on a virtual console
-Summary(de.UTF-8):   Tools zum Erstellen virtueller Konsolen
-Summary(es.UTF-8):   Herramientas para creación de consolas virtuales
-Summary(fr.UTF-8):   Outils pour créer des consoles virtuelles
-Summary(pl.UTF-8):   Narzędzie uruchamiające program na konsoli wirtualnej
-Summary(pt_BR.UTF-8):   Ferramentas para criação de consoles virtuais
-Summary(ru.UTF-8):   Утилита для запуска программы на указанной виртуальной консоли
-Summary(tr.UTF-8):   Sanal konsol yaratmak için araçlar
-Summary(uk.UTF-8):   Утиліта для запуску програми на вказаній віртуальній консолі
+Summary(de.UTF-8):	Tools zum Erstellen virtueller Konsolen
+Summary(es.UTF-8):	Herramientas para creación de consolas virtuales
+Summary(fr.UTF-8):	Outils pour créer des consoles virtuelles
+Summary(pl.UTF-8):	Narzędzie uruchamiające program na konsoli wirtualnej
+Summary(pt_BR.UTF-8):	Ferramentas para criação de consoles virtuais
+Summary(ru.UTF-8):	Утилита для запуска программы на указанной виртуальной консоли
+Summary(tr.UTF-8):	Sanal konsol yaratmak için araçlar
+Summary(uk.UTF-8):	Утиліта для запуску програми на вказаній віртуальній консолі
 Name:		open
 Version:	1.4
 Release:	17
